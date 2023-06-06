@@ -1,5 +1,5 @@
 def partition(arr, low_index, high_index):
-    # Select the pivot element as the first index
+    # Select the pivot element as the first index element
     partition_index = arr[low_index]
     # start the left pointer
     i = low_index + 1
